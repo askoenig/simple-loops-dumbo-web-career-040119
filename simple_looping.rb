@@ -1,6 +1,13 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+  loop do 
+  number_of_times += 1
+  puts "Iteration #{counter} of the loop"
+  if counter >= 10 
+    break
+  end
+  
   7.times do
   puts = "Welcome to Flatiron School's Web Development Course!"
 end
