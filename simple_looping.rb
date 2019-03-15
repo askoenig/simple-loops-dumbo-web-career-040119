@@ -11,6 +11,8 @@ def loop_iterator(number_of_times)
   end
 end
 
+loop_iterator(3)
+
 def times_iterator(number_of_times)
   7.times do
     puts "Welcome to Flatiron School's Web Development Course!"
